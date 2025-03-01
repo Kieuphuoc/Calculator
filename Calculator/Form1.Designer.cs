@@ -84,7 +84,6 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(207, 27);
             textBox3.TabIndex = 6;
-            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // label4
             // 
@@ -94,7 +93,6 @@
             label4.Size = new Size(60, 20);
             label4.TabIndex = 5;
             label4.Text = "Kết quả";
-            label4.Click += this.label4_Click;
             // 
             // button1
             // 
