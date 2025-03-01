@@ -36,6 +36,7 @@
             textBox3 = new TextBox();
             label4 = new Label();
             button1 = new Button();
+            btnTru = new Button();
             SuspendLayout();
             // 
             // label1
@@ -96,7 +97,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(196, 245);
+            button1.Location = new Point(268, 234);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 7;
@@ -104,11 +105,22 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // btnTru
+            // 
+            btnTru.Location = new Point(155, 234);
+            btnTru.Name = "btnTru";
+            btnTru.Size = new Size(94, 29);
+            btnTru.TabIndex = 8;
+            btnTru.Text = "Trừ";
+            btnTru.UseVisualStyleBackColor = true;
+            btnTru.Click += btnTru_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(472, 363);
+            Controls.Add(btnTru);
             Controls.Add(button1);
             Controls.Add(textBox3);
             Controls.Add(label4);
@@ -133,5 +145,6 @@
         private TextBox textBox3;
         private Label label4;
         private Button button1;
+        private Button btnTru;
     }
 }
